@@ -1,0 +1,258 @@
+@import 'https://resource.vsigo.cn/font/iconfont.css';
+body{
+  background:#F9FAFF;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote，th, td {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Microsoft YaHei",Lyh-Regular,helvetica,arial,sans-serif; */
+    font-family: "PingFangSC-Regular";
+    /* color: #172B4D; */
+    
+}
+input,button,textarea{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+b,i,font{
+    font-style: normal;
+    font-weight: normal;
+}
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+capation, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: ' ';
+}
+
+abbr, acronym {
+    border: 0;
+}
+i,font{
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* 常用flex布局方式 */
+.fl-row-left{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.fl-row-leftEnd{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.fl-row-center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fl-row-justy{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.fl-row-justyStart{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.fl-row-justyEnd{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.fl-column-center{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fl-column-justyStart{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.fl-column-justy{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.fl-column-between{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.one-lineellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 常用的几个图标 */
+.Btn-icons{
+    background: rgba(0,0,0,.3);
+    text-align:center;
+    font-size:18px;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    color: #fff;
+}
+.Btn-icons i{
+    font-size: 20px;
+}
+.Btn_red_bg{
+    cursor: pointer;
+    background:linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+    color: #fff;
+    border-radius: 50px;
+}
+.btn_redBg_s{
+    padding:2px 8px;
+    color:#fff;
+    background:rgba(252, 59, 114, 1);
+    font-size:12px;
+    border-radius:20px;
+}
+.Btn_gray_border{
+    cursor: pointer;
+    border: 1px solid rgba(139,149,166,1);
+    color: rgba(139,149,166,1);
+    border-radius: 50px;
+}
+.onepx_bottom:after{
+  content: "";
+  pointer-events: none;
+  box-sizing: border-box;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  -webkit-transform: scale(.5);
+  -webkit-transform-origin: 0 0;
+  transform: scale(.5);
+  transform-origin: 0 0;
+  border-bottom:1px solid #e1e1e1;
+}
+/* 字体颜色 */
+.t_gray1{
+    color: #A5ADBA !important;
+}
+.t_gray2{
+    color: #5E6C84 !important;
+}
+.t_gray3{
+    color: #7E899D !important;
+}
+.t_red{
+    color: #FC3B72 !important;
+}
+.t_black{
+    color: #172B4D !important;
+}
+.t_black_opacity{
+    color: rgba(23, 43, 77, .5) !important;
+}
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+/* 限时优惠样式 */
+.lunboImg {
+    height: 200px;
+    width: 100%;
+  }
+  #toubu {
+    padding-bottom: 60px;
+  }
+  .CardBar {
+    background-color: #fff;
+  }
+  
+  .jsx-250627499 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .jsx-250627499 .icon-btn_backx.jsx-250627499 {
+    font-size: 14px;
+    transform: rotate(180deg);
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 2px;
+  }
+  .youhuilist {
+    overflow: auto;
+    padding-top: 4px;
+  }
+  .youhuiul {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .youhuiul .youhuili {
+    float: left;
+    margin: 0 0.1rem 0.12rem 0.1rem;
+    border: 1px solid RGBA(23, 43, 77, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px 0.16rem;
+    font-size: 0.24rem;
+    position: relative;
+  }
+  .youhuiul .youhuili img {
+    display: block;
+    width: 85px;
+    height: 85px;
+  }
+  .IndexskillBar {
+    background-color: #fff;
+  }
+  .tou {
+    background: rgba(255, 185, 204, 0.32);
+  }

@@ -1,0 +1,607 @@
+.MyCart .headertitle{
+    color: #A5ADBA ;
+    height: 0.88rem;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    /* border-bottom: 1px solid gray; */
+  }
+  .MyCart .headertitle span{
+      display: inline-block;
+      color: #A5ADBA ;
+      width:2.2rem;
+      height:0.88rem;
+      font-size:0.28rem;
+      font-family:PingFangSC-Medium;
+      font-weight:500;
+      line-height:0.88rem;
+      text-align: center;
+  }
+  .MyCart .headertitle .active{
+      color: #FC3B72;
+      border-bottom: 2px solid #FC3B72;
+      box-sizing: border-box;
+  }
+  .MyCart .icon-btn_backx{
+      color: #A5ADBA;
+      float: left;
+      margin-left: 0.10rem;
+      margin-top: 0.28rem;
+  }
+  .MyCart .shoptype{
+      width: 4.4rem;
+      margin: 0 auto;
+      /* display: inline-block; */
+  }
+  .MyCart .pieceTogether{
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
+      width:100%;
+      height:0.72rem;
+      background:linear-gradient(90deg,rgba(255,211,37,0.1) 0%,rgba(255,169,0,0.1) 100%);
+      /* opacity:0.1; */
+      color: #F5A623;
+      font-size: 0.24rem;
+      line-height: 0.72rem;
+      box-sizing: border-box;
+      margin-top: 0.88rem;
+      /* display: none */
+  }
+  .MyCart .pieceTogether .buyMore{
+      float: right;
+      /* display: inline-block; */
+      width: 1.2rem;
+      height: 0.4rem;
+      color: #FC3B72;
+      border:1px solid rgba(252,59,114,1);
+      text-align: center;
+      border-radius:4px;
+      line-height: 0.4rem;
+      margin-top: 7px;
+      box-sizing: border-box;
+  }
+  .MyCart .nologin{
+      display: none;
+      width: 100%;
+      height: 0.72rem;
+      line-height: 0.72rem;
+      text-align: center;
+      font-size: 0.24rem;
+      color: #172B4D;
+      background-color: #fff;
+      margin-top: 0.88rem;
+  }
+  .MyCart .loginbtn{
+      display: inline-block;
+      width:1.20rem;
+      height:0.40rem;
+      text-align: center;
+      line-height: 0.4rem;
+      margin-left: 0.1rem;
+      background:rgba(255,255,255,1);
+      border-radius:0.20rem;
+      border:1px solid rgba(252,59,114,1);
+      color: #FC3B72;
+      box-sizing: border-box;
+  }
+  .MyCart .itemlist{
+      margin: 0 auto;
+      margin-top:0.16rem; 
+      width:7.18rem;
+      /* height:2.48rem; */
+      background:rgba(255,255,255,1);
+      box-shadow:0px 0.06rem 0.2rem 0px rgba(121,152,215,0.2);
+      border-radius:0.08rem;
+      padding-bottom: 0.26rem;
+      overflow: hidden;
+  }
+  .MyCart .cartImage{
+      /* display: inline-block; */
+      width: 2rem;
+      height: 2rem;
+      margin-left: 0.25rem;
+      overflow: hidden;
+      margin-top: 0.24rem;
+      float: left;
+      margin-right: 10px;
+  }
+  .MyCart .cartImage img{
+      width: 100%;
+  }
+  .MyCart .cartTitle{
+      position: relative;
+  }
+  .MyCart .cartTitle a{
+      display: inline-block;
+      width:3.46rem;
+      height:0.72rem;
+      font-size:0.24rem;
+      font-family:PingFangSC-Regular;
+      font-weight:400;
+      color:rgba(23,43,77,1);
+      line-height:0.36rem;
+      margin-top: 0.24rem;
+      overflow:hidden; 
+      position: relative;
+  
+  text-overflow:ellipsis;
+  
+  display:-webkit-box; 
+  
+  -webkit-box-orient:vertical;
+  
+  -webkit-line-clamp:2; 
+      
+  }
+  .MyCart .icon-btn_scx{
+      position: absolute;
+      top: 0;
+      right: 0.36rem;
+      font-size: 0.5rem;
+      color:rgba(165,173,186,1);
+  }
+  .MyCart .skuText{
+      display: inline;;
+      padding: 0.1rem 2px;
+      box-sizing: border-box;
+      background:rgba(165,173,186,0.12);
+      border-radius:0.08rem;
+      font-size: 0.24rem;
+      line-height: 0.5rem;
+      text-align: center;
+      color: #A5ADBA;
+  }
+  .MyCart .skuChose .icon-btn_jrx{
+      margin-top: 5px;
+      display: inline-block;
+      font-size: 0.36rem;
+      color: #A5ADBA;
+      transform: rotate(90deg);
+      position: relative;
+      top: 3px;
+  }
+  .MyCart .priceAndOperation{
+      margin-top: 0.16rem;
+  }
+  .MyCart .priceAndOperation .price{
+    font-size: 0.24rem;
+    font-weight: 500;
+    color: #FC3B72;
+    line-height:0.32rem;
+  }
+  .MyCart  .priceAndOperation.Gold .price{
+      font-size: 0.30rem;
+      font-weight: 500;
+      color: #FC3B72;
+      line-height:0.32rem;
+  }
+  .MyCart .priceAndOperation  .coupon{
+      display: inline-block;
+      /* width:0.40rem; */
+      /* height:0.30rem; */
+      text-align: center;
+      background:rgba(252,59,114,0.09849999999999999);
+      border-radius:3px;
+      font-size:0.20rem;
+      font-family:PingFangSC-Medium;
+      font-weight:500;
+      color:rgba(252,59,114,1);
+      /* line-height:0.28rem; */
+      padding: 1px 5px;
+      letter-spacing:1px;
+  }
+  .MyCart .priceAndOperation  .gold{
+      display: inline-block;
+      width:0.62rem;
+      height:0.30rem;
+      background:rgba(255,149,1,0.09849999999999999);
+      border-radius:3px;
+      font-size:0.20rem;
+      text-align: center;
+      color: #FF9501;
+  }
+  
+  .MyCart .priceAndOperation .sub{
+      display: inline-block;
+      width:0.48rem;
+      height:0.48rem;
+      line-height: 0.48rem;
+      font-size: 0.24rem;
+      background:rgba(246,247,248,0.7977);
+      border-radius:4px 0px 0px 4px;
+      color:rgba(23, 43, 77, 0.2); 
+      text-align: center
+  }
+  .MyCart .priceAndOperation .cansub{
+      display: inline-block;
+      width:0.48rem;
+      height:0.48rem;
+      line-height: 0.48rem;
+      font-size: 0.24rem;
+      background:rgba(246,247,248,0.7977);
+      border-radius:4px 0px 0px 4px;
+      color:rgba(23, 43, 77, 0.5); 
+      text-align: center
+  }
+  .MyCart .priceAndOperation .add{
+      display: inline-block;
+      width:0.48rem;
+      height:0.48rem;
+      line-height: 0.48rem;
+      font-size: 0.24rem;
+      background:rgba(246,247,248,0.7977);
+      border-radius:4px 0px 0px 4px;
+      color:rgba(23, 43, 77, 0.5); 
+      text-align: center
+  }
+  .MyCart .priceAndOperation .canadd{
+      display: inline-block;
+      width:0.48rem;
+      height:0.48rem;
+      line-height: 0.48rem;
+      font-size: 0.24rem;
+      background:rgba(246,247,248,0.7977);
+      border-radius:4px 0px 0px 4px;
+      color:rgba(23, 43, 77, 0.5); 
+      text-align: center
+  }
+  .MyCart .numtext{
+      display: inline-block;
+      width:0.48rem;
+      height:0.48rem;
+      text-align: center;
+      line-height: 0.48rem;
+      background:rgba(246,247,248,1);
+      color: #172B4D;
+      font-size: 0.28rem;
+  }
+  .MyCart .operationBtn{
+      float: right;
+      margin-right: 0.36rem;
+  
+  }
+  .MyCart .priceAndOperation .icon-icon_jia1, .MyCart .priceAndOperation .icon-icon_jia{
+      font-size: 0.24rem;
+  }
+  .MyCart .footernav{
+      left:0;
+      right: 0;
+      position: fixed;
+      bottom: 0;
+      height:3rem;
+      padding:8px;
+      background:rgba(255,255,255,1);
+  }
+  .MyCart .footernav .totalPrice{
+      display: inline-block;
+      height: 0.4rem;
+  font-size:0.28rem;
+  font-family:PingFangSC-Medium;
+  font-weight:500;
+  color:#283A5A;
+  line-height:0.40rem;
+  margin-left: 0.24rem;
+  }
+  .MyCart .footernav .totalPrice span{
+      display: inline-block;
+      height: 0.4rem;
+      font-size:0.30rem;
+      font-family:Futura-Medium;
+      font-weight:500;
+      color:rgba(252,59,114,1);
+      line-height:0.40rem;
+      /* margin-left: 0.24rem; */
+      margin-top: 0.2rem;
+  }
+  .MyCart .footernav .totalPrice span span{
+      font-size: 0.24rem;
+      line-height: 0.33rem;
+  }
+  .MyCart .footernav .trueOrder{
+      display: inline-block;
+      width:9.0rem;
+      height:2.0rem;
+      background:linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+      border-radius:1rem;
+      font-size: 0.28rem;
+      line-height: 2.0rem;
+      color: white;
+      text-align: center;
+  }
+  .MyCart .ruleshop{
+      width: 6.7rem;
+      margin: 0 auto;
+      padding: 0.26rem;
+      border:0.5px solid rgba(24,44,78,0.1);
+      box-sizing: border-box;
+      border-radius: 6px;
+      margin-top: 0.32rem;
+      overflow: hidden;
+  }
+  .MyCart .Secondshop{
+      width: 5.62rem;
+      float: right;
+  }
+  .MyCart .Secondshop .cartImage{
+      /* display: inline-block; */
+      width: 1rem;
+      height: 1rem;
+      margin-left: 0.25rem;
+      overflow: hidden;
+      margin-top: 0.24rem;
+      float: left;
+      margin-right: 10px;
+  }
+  .MyCart   .addCoupon{
+      display: inline-block;
+      text-align: center;
+      /* line-height: 0.3rem; */
+      font-size: 0.2rem;
+      width:0.40rem;
+      padding:1px 5px;
+      /* height:0.30rem; */
+      border-radius:3px;
+      border:1px solid rgba(252,59,114,1);
+      color: #FC3B72;
+  }
+  .MyCart .couponNum{
+      color:rgba(23,43,77,0.5);
+      font-size: 0.24rem;
+      margin-right: 0.16rem;
+  }
+  .MyCart .itemlist .borderTop{
+      border-top:1px solid rgba(24,44,78,0.1);
+      padding-bottom: 0.3rem;
+      overflow: hidden;
+  }
+  .MyCart .itemlist .borderTop:nth-of-type(1){
+      border-top: none;
+  }
+  .MyCart .itemlist .borderTop:nth-of-type(1) .cartTitle a{
+      margin-top: 0.2rem;
+  }
+  .MyCart .height50{
+      height: 80px;
+  }
+  .MyCart  .freePrice{
+      display: inline-block;
+      /* width:0.40rem; */
+      /* height:0.30rem; */
+      /* line-height: 0.3rem; */
+      padding: 1px 5px;
+      text-align: center;
+      border-radius:3px;
+      color: #29ADFA;
+      font-size: 0.2rem;
+      border:1px solid rgba(41,173,250,0.8);
+      position: relative;
+      top: -2px;
+  }
+  .MyCart .itemlist .borderTop .cartTitle a{
+      width: 3.46rem;
+  }
+  .MyCart .skuChose {
+      position: relative;
+      margin-left: 2.48rem;
+  }
+  .MyCart .Secondshop .skuChose {
+      position: relative;
+      margin-left: 1.5rem;
+  }
+  .MyCart .secondPrice{
+    
+      color: #FD3D73;
+      font-size: 0.24rem;
+     margin-bottom: 0;
+     position: absolute;
+     right: 0;
+     bottom: 2px;
+  }
+  
+  .MyCart .groupList{
+    width: 100%;
+      overflow: hidden;
+      border-top:1px solid rgba(24,44,78,0.1);
+      margin-top: 0.24rem;
+  }
+  .MyCart  .groupList  .secondPrice{
+      right: 0.26rem;
+      
+  }
+  .MyCart .groupshop{
+      padding: 0 0.16rem;
+      box-sizing: border-box;
+  }
+  
+  .MyCart .groupTotalprice{
+      width: 100%;
+      height: 0.87rem;
+      line-height: 0.87rem;
+      margin-top: 0.24rem;
+      border-top:1px solid rgba(24,44,78,0.1);
+  }
+  
+  .MyCart .groupTotalprice .first{
+      float: right;
+  }
+  .MyCart .groupTotalprice span{
+      
+      color: #FC3B72;
+      font-weight:500;
+      font-size: 0.3rem;
+  }
+  .MyCart .groupTotalprice  span span{
+      font-size: 0.24rem;
+  }
+  .MyCart .groupCoupon{
+     
+      font-size:0.20rem;
+      font-family:PingFangSC-Medium;
+      font-weight:500;
+      color:rgba(252,59,114,1);
+     margin-top: 0.32rem;
+     margin-bottom: 0.32rem;
+  }
+  .MyCart .groupTag{
+      display: inline-block;
+      padding: 1px 5px;
+      text-align: center;
+      background:rgba(0,196,147,0.09849999999999999);
+      border-radius:3px;
+      font-size:0.20rem;
+      font-family:PingFangSC-Medium;
+      font-weight:500;
+      color:#00C493;
+      /* line-height:0.28rem; */
+      letter-spacing:1px;
+  }
+  .MyCart .freeShop{
+      margin-top: 0.24rem;
+      margin-bottom: 0.23rem;
+      width: 100%;
+  }
+  .MyCart .freeShop {
+      font-size: 0.24rem;
+      color: #7E899D;
+  }
+  .MyCart .freeShop .tags{
+      margin-top: 0.24rem;
+      margin-bottom: 0.23rem;
+      margin-left: 0.24rem;
+      margin-right: 0.24rem;
+      display: inline-block;
+      text-align: center;
+      padding: 1px 8px;
+      border-radius:0.28rem;
+      border:1px solid rgba(252,59,114,1);
+      color: #FC3B72;
+      font-size: 0.2rem;
+  }
+  .couponhide{
+      display: none;
+  }
+  .MyCart .secondPricehide{
+      display: none;
+  }
+  .MyCart .hide{
+      display: none;
+  }
+  .MyCart .priceAndOperation .goldtext{
+      color: #FDBF46;
+      font-size: 0.24rem;
+  }
+  .MyCart .itemlistnotop{
+      margin: 0 auto;
+      /* margin-top:0.16rem;  */
+      width:7.18rem;
+      /* height:2.48rem; */
+      background:rgba(255,255,255,1);
+      box-shadow:0px 0.06rem 0.2rem 0px rgba(121,152,215,0.2);
+      border-radius:0.08rem;
+      padding-bottom: 0.26rem;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-top: 0.5px solid rgba(24,44,78,0.1);
+      
+  }
+  .MyCart .modalFooter button {
+      width: 100%;
+      border-radius: 30px;
+      color: #fff;
+      background: linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+      box-shadow: 0px 4px 20px 0px rgba(121,152,215,0.2);
+      padding: 10px;
+  }
+  .MyCart .emptyImage{
+      width: 1.58rem;
+      margin-top: 0.8rem;
+      margin-bottom: 0.4rem;
+  }
+  .MyCart .emptyCart{
+      text-align: center;
+      color:rgba(23,43,77,0.5);
+      font-size: 0.26rem;
+  }
+  .MyCart .linkBtn{
+      width:5.6rem;
+      margin: 0.32rem 0.95rem;
+  }
+  .MyCart .goIndexBtn {
+      display: inline-block;
+      width:2.64rem;
+      height:0.80rem;
+      background:linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+      border-radius:1rem;
+      color: white;
+      line-height: 0.8rem;
+      box-sizing: border-box;
+  }
+  .MyCart  .goSerchBtn{
+      display: inline-block;
+      margin-left: 0.32rem;
+      width:2.64rem;
+      height:0.80rem;
+      border-radius:1rem;
+      border:2px solid #FC3B72;
+      color: #FC3B72;
+      line-height: 0.8rem;
+      box-sizing: border-box;
+  }
+  .MyCart .guessLike{
+     margin-top: 0.8rem;
+      width:7.50rem;
+      
+      background:rgba(255,255,255,1);
+      box-shadow:0px 6px 20px 0px rgba(121,152,215,0.2);
+      border-radius:0.24rem 0.24rem 0px 0px;
+      padding: 0.4rem 0.24rem 0 0.24rem;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
+  .MyCart .guessLike .leftImage,.MyCart .guessLike .rightImage{
+   width: 0.95rem;
+   height: 0.08rem;
+   position: relative;
+   top: -3px;   
+  }
+  .MyCart .guessLike .leftImage{
+      margin-right: 0.32rem;
+  }
+  .MyCart .guessLike .rightImage{
+      margin-left: 0.32rem;
+  }
+  
+  .MyCart .listGuesslike{
+      width: 2.3rem;
+      height: 2.94rem;
+      border-radius: 0.08rem;
+      float: left;
+      margin-top: 0.7rem;
+      position: relative;
+      text-align: center;
+  }
+  .MyCart .listGuesslike img{
+      width: 1.98rem;
+  }
+  .MyCart .priceList{
+      position: absolute;
+      bottom: 0.23rem;
+      left: 0.3rem;
+  }
+  .MyCart .priceList .left{
+      font-size: 0.28rem;
+      color: #FC3B72;
+  }
+  .MyCart .priceList .right{
+      font-size: 0.2rem;
+      color: #A5ADBA;
+      margin-left: 0.16rem;
+  }
+  .t_gray1 {
+    font-size: 0.6rem;
+}
+.van-tab .van-tab--active{
+    color: red;
+}
