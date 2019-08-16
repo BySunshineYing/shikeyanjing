@@ -139,8 +139,6 @@ h2 {
   border-radius: 10px 10px;
   margin: 10px 10px;
   padding: 10px 8px;
-
-  box-shadow: 0px 6px 20px 0px rgba(121, 152, 215, 0.2);
 }
 </style>
 
