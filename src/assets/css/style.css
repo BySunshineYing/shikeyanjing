@@ -2,6 +2,9 @@
 body{
   background:#F9FAFF;
 }
+html {
+    font-size: 50px;
+  }
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote，th, td {
     margin: 0;
     padding: 0;
@@ -19,6 +22,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 b,i,font{
     font-style: normal;
     font-weight: normal;
@@ -178,9 +182,12 @@ a {
 /* 字体颜色 */
 .t_gray1{
     color: #A5ADBA !important;
+    font-size: 0.4rem
+
 }
 .t_gray2{
     color: #5E6C84 !important;
+    font-size: 0.4rem
 }
 .t_gray3{
     color: #7E899D !important;
@@ -203,7 +210,7 @@ a {
 
 /* 限时优惠样式 */
 .lunboImg {
-    height: 200px;
+    height: 250px;
     width: 100%;
   }
   #toubu {
@@ -211,6 +218,7 @@ a {
   }
   .CardBar {
     background-color: #fff;
+    padding: 0 0 15px 0;
   }
   
   .jsx-250627499 {
@@ -256,3 +264,4 @@ a {
   .tou {
     background: rgba(255, 185, 204, 0.32);
   }
+  

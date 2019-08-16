@@ -38,13 +38,14 @@
         <!-- 表list -->
         <div class="pingoulist">
           <van-card
-            v-for="(item,index) in pingoulist"
-            :key="index"
+            v-for="item in pingoulist"
+            :key="item.id"
             :price="item.price"
             :desc="'已拼'+item.itemid+'件'"
             :title="item.itemname"
             :thumb="item.image"
             :origin-price="item.pinbuynum"
+            @click="goto(item.id)"
           />
         </div>
       </div>
@@ -111,19 +112,9 @@
           </ul>
         </div>
 
-        <div class="jsx-250627499 footer fl-row-justy">
-          <p class="jsx-250627499">
-            <i class="jsx-250627499 t_gray1 iconfont icon-icon_sp"></i>
-            <span class="jsx-250627499 t_gray2">
-              &nbsp;
-              <!-- -->
-              10
-              <!-- -->
-              件商品&nbsp;&nbsp;&nbsp;&nbsp;
-              <span class="jsx-250627499 t_gray1">正在抢购</span>
-            </span>
-          </p>
-          <i class="jsx-250627499 iconfont icon-btn_backx"></i>
+        <div class="jsx-250627499 footer">
+          <i class="t_gray1 iconfont icon-icon_sp"></i>
+          10件商品&nbsp;&nbsp;&nbsp;正在抢购
         </div>
       </div>
     </div>
@@ -141,13 +132,20 @@
 
 <script>
 import "../assets/css/style.css";
+// import "../assets/css/style2.css";
+
 export default {
   data() {
     return {
       // 搜索框的值
       value: "",
       // 轮播图片路径数据
-      lunbotu: [],
+      lunbotu: [
+        "https://images.vsigo.cn/ADVP/640-260/201974103417140.jpg",
+        "https://images.vsigo.cn/ADVP/640-260/2019731234325118.jpg",
+        "https://images.vsigo.cn/ADVP/640-260/201982185523975.jpg",
+        "https://images.vsigo.cn/ADVP/640-260/20198110520323.jpg"
+      ],
       // 宫格数据
       gonggeList: [],
       active: 0,
@@ -167,24 +165,15 @@ export default {
   },
   async created() {
     //   获取首页数据
-    let shouyeList = await this.$axios(
-      //   // "https://www.easy-mock.com/mock/5d4561c18aa85155233ce3cc/shouye"
-      "http://localhost:3000/"
-    );
+    let shouyeList = await this.$axios("http://localhost:3000/");
     // console.log(shouyeList.data[0].pingoulist);
     this.gonggeList = shouyeList.data[0].gongges; //宫格数据
-    this.lunbotu = shouyeList.data[0].lunbotu; //轮播图
+    // this.lunbotu = shouyeList.data[0].lunbotu; //轮播图
     this.pingoulist = shouyeList.data[0].pingoulist; //拼购全数据
-    this.pingoulist = this.pingoulist.slice(0, 3); //拼购三条数据
+    this.pingoulist = this.pingoulist.slice(0, 3); //拼购3条数据
     this.youhuilist = this.pingoulist.slice(3, 5); //优惠5条数据
   },
-  computed: {
-    // pingoulistComputed() {
-    //   // 切割3个拼购数据
-    //   return this.pingoulist.slice(0, 3);
-    //   console.log(this.pingoulist);
-    // }
-  }
+  computed: {}
 };
 </script>
 
@@ -195,9 +184,28 @@ export default {
 .tou {
   padding: 8px;
 }
+.tou span {
+  font-size: 0.4rem;
+}
 .van-card__header,
 .pingoulist,
 .van-card {
   background-color: #fff;
 }
+.tipsMore {
+  font-size: 0.4rem;
+}
 </style>
+<style >
+.van-grid .van-grid-item__text {
+  font-size: 0.3rem;
+}
+.van-card__title {
+  font-size: 0.3rem;
+}
+#app .footer {
+  font-size: 0.3rem;
+  color: #172b4d;
+}
+</style>
+

@@ -4,7 +4,7 @@
     <van-search placeholder="搜索/商品/品牌/类别" v-model="value" />
 
     <!-- tab标签切换 -->
-    <van-tabs v-model="active" color="#ff0000">
+    <van-tabs v-model="tap" color="#ff0000">
       <van-tab title="隐形眼镜">
         <!-- 切换内容 -->
         <div class="CategoryList">
@@ -341,21 +341,28 @@ export default {
     return {
       // bell,
       value: "",
-      active: 0
+      active: 1,
+      tap: 0
     };
   }
 };
 </script>
 <style scoped>
-/* .van-search {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-} */
 .van-search__content {
   border: 1px solid #a5adba;
   background-color: transparent;
 }
+html {
+  font-size: 50px;
+}
+.CategoryList .sec .fl-row-left {
+  background-color: #fff;
+}
 </style>
+<style>
+#app .dingdan .van-tab--active {
+  color: #fc3b72;
+}
+</style>
+
 

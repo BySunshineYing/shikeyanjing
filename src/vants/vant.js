@@ -23,8 +23,11 @@ import {
     // 加入购物车
     GoodsAction,
     GoodsActionIcon,
-    GoodsActionButton
-
+    GoodsActionButton,
+    // 登陆输入框
+    Field,
+    CellGroup,
+    Cell
 
 } from 'vant';
 
@@ -39,5 +42,6 @@ export default () => {
     Vue.use(Card);
     Vue.use(CountDown);
     Vue.use(GoodsAction).use(GoodsActionIcon).use(GoodsActionButton);
-
+    Vue.use(Field);
+    Vue.use(Cell).use(CellGroup);
 }

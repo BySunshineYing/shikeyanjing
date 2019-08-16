@@ -1,0 +1,51 @@
+.InputBarWrap{
+    background:rgba(255,255,255,1);
+    box-shadow:0px 4px 20px 0px rgba(121,152,215,0.2);
+    border-radius:12px;
+}
+.InputBarWrap li{
+    padding :.3rem 8px;
+}
+.InputBarWrap .contents{
+    position:relative;
+}
+.InputBarWrap .tips{
+    width:.48rem;
+    height:.48rem;
+    text-align:center;
+    line-height:.48rem;
+}
+.InputBarWrap .inputWrap{
+    width:100%;
+}
+.InputBarWrap .deleteIcon{
+    position:absolute;
+    top:50%;
+    right:10px;
+    transform:translateY(-50%);
+}
+.InputBarWrap .inputWrap div,.InputBarWrap .inputWrap input{
+    font-size:.24rem;
+    width:80%;
+    margin-left:8px;
+}
+.InputBarWrap .codeBtn{
+    /* width:76px; */
+    text-align: center;
+    font-size:12px;
+    color:#fff;
+    height: 26px;
+    line-height: 26px;
+    background:#CCC;
+    border-radius:12px;
+    padding:0 6px;
+    pointer-events:none;
+}
+.InputBarWrap .link{
+    font-size: .24rem;
+    color: #FF5474;
+}
+.InputBarWrap .active{
+    pointer-events:auto;
+    background:linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+}

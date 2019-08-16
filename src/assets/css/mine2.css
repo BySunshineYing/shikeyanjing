@@ -1,0 +1,429 @@
+.head {
+    background: linear-gradient(90deg, rgba(252, 59, 114, 0.78) 0%, rgba(252, 59, 114, 1) 100%);
+    width: 100%;
+    height: 1.96rem;
+}
+
+.set {
+    width: 0.44rem;
+    height: 0.44rem;
+    float: right;
+    margin-right: 0.24rem;
+    margin-top: 0.46rem;
+    cursor: pointer;
+}
+
+.header {
+    width: 7.02rem;
+    /* height: 3.04rem; */
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0.06rem 0.2rem 0 rgba(121, 152, 215, 0.2);
+    border-radius: 0.12rem;
+    z-index: 10;
+    margin: 0 auto;
+    margin-top: -0.88rem;
+    padding: 0.32rem 0;
+    box-sizing: border-box;
+    margin-bottom: 0.25rem;
+    /* display: none; */
+
+}
+.headerFirst{
+    width: 7.02rem;
+    height: 1.84rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0.06rem 0.2rem 0 rgba(121, 152, 215, 0.2);
+    border-radius: 0.12rem;
+    z-index: 10;
+    margin: 0 auto;
+    margin-top: -0.88rem;
+    padding-top: 0.32rem;
+    box-sizing: border-box;
+    margin-bottom: 0.25rem;
+    /* display: none; */
+}
+
+/* .headx{
+    background:rgba(249,250,255,1);
+    width: 100%;
+} */
+.more {
+    margin: 0 auto;
+}
+
+.huiyuan {
+    width: 3rem;
+    height: 0.48rem;
+    background:#F1F3F5;
+    border-radius: 0.24rem;
+    margin-left: 1.8rem;
+    margin-top: -0.5rem;
+
+}
+
+.sigo {
+    width: 48%;
+    position: absolute;
+    top: 1.62rem;
+    left: 2.1rem;
+}
+
+.goldlist {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.43rem;
+}
+
+.gold_ {
+    text-align: center;
+    font-size:.3rem;
+}
+
+.orderList {
+    width: 7.02rem;
+    height: 2.74rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0.06rem 0.2rem 0rem rgba(121, 152, 215, 0.2);
+    border-radius: 0.12rem;
+    margin-top: 0.53rem;
+    margin: 0 auto;
+}
+
+.order {
+    height: 1.01rem;
+    border-bottom: 0.01rem solid rgba(24,44,78,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.2rem;
+}
+
+.my {
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: rgba(24, 44, 78, 1);
+}
+.all{
+    font-size:0.24rem;
+    font-weight:400;
+    color:rgba(165,173,186,1);
+}
+.money{
+    font-size:0.24rem;
+    color:rgba(126,137,157,1);
+}
+.wait{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.waitt{
+    margin-top: 0.2rem;
+}
+.harvest{
+    display: inline-block;
+    margin-top: 0.09rem;
+    font-size: 0.24rem;
+    color:rgba(126,137,157,1);
+}
+
+.wait .one:nth-child(3){
+    padding-top: 0.14rem;
+}
+.wait .one:nth-child(3) .harvest{
+    padding-top: 0.14rem;
+}
+.three{
+    width:7.02rem;
+    height:5.16rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0 0.06rem 0.2rem 0 rgba(121,152,215,0.2);
+    border-radius:0.12rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0.25rem auto .3rem;
+}
+.one{
+    width: 33.3%;
+}
+.signin{
+    width:1.28rem;
+    height:0.6rem;
+    background:rgba(253,191,70,1);
+    border-radius:1rem 0 0 1rem;
+    position: absolute;
+    right: 0.25rem;
+    top: 1.8rem;
+}
+.sigo1{
+    width: 48%;
+    position: absolute;
+    left: 2.1rem;
+    top: 1.8rem;
+    font-size:0.3rem;
+    color:rgba(24,44,78,1);
+}
+.pic{
+    width:1.2rem;
+    height:1.2rem;
+    margin-left: 0.38rem;
+}
+.grade{
+    width: 0.3rem;
+    height: 0.24rem;
+    margin-left:0.09rem;
+    margin-right: 0.09rem;
+}
+.grape{
+    font-size: 0.2rem;
+    color:rgba(94,108,132,1);
+}
+.top{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.record{
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+    background:rgba(255,255,255,1);
+    border:0.02rem solid rgba(252,59,114,1);
+    border-radius:50%;
+    position: absolute;
+    color: rgb(252, 87, 134);
+    font-size: 10px;
+}
+.wait .one:nth-child(1) .record{
+    top: 5.55rem;
+    left: 1rem;
+}
+.wait .one:nth-child(2) .record{
+    top: 5.55rem;
+    left: 2.4rem;
+}
+.wait .one:nth-child(3) .record{
+    top: 5.55rem;
+    left: 3.9rem;
+}
+.wait .one:nth-child(4) .record{
+    top: 5.55rem;
+    left: 5.2rem;
+}
+.boxborder{
+    color:rgba(252,87,134,1);
+    font-size:10px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(252,59,114,1);
+    border-radius: 50%;
+    position: absolute;
+    /* top: 9.16rem; */
+    top: 13.66rem;
+    /* left: 6.2rem; */
+    left: 1.5rem;
+    width: 18px;
+    line-height: 18px;
+    height:18px;
+    text-align: center;
+}
+.gray{
+    z-index: 10;
+    position: fixed;
+    top:0;
+    bottom:0;
+    width:100%;
+    height: 100%;
+    background:rgba(0,0,0,1);
+    opacity:0.68;
+}
+.signgift{
+    width: 86%;
+    background: rgba(255,255,255,1);
+    border-radius: 0.12rem;
+    top: 60px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    position: absolute;
+}
+.signgift_n{
+    width:100%;
+    height:1.04rem;
+    background:rgba(252,59,114,1);
+    border-radius: 0.12rem 0.12rem 0rem 0rem;
+}
+.conti{
+    height: 1.78rem;
+    width: 100%;
+}
+.footer_w{
+    bottom:0rem;
+    position: absolute;
+}
+/* .footer{
+    width:3.7rem;
+    height:0.8rem;
+    background:linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+    border-radius:1rem;
+    margin-left: 1.29rem;
+    margin-bottom: 0.48rem;
+} */
+.conti{
+    /* background: red; */
+    position: relative;
+    top: -0.07rem;
+}
+.center_{
+    border-left:0.06rem solid rgba(249,245,235,1);
+    border-right:0.06rem solid rgba(249,245,235,1);
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0 auto;
+ }
+ .center_r{
+     width:5.22rem;
+     height:1.22rem;
+     border-radius:0.16rem;
+     border:0.06rem solid rgba(249,245,235,1);
+     margin: 0 auto;
+     /* border-radius: #F9F5EB; */
+}
+.keep,.mouth{
+    text-align: center;
+    font-size: 0.24rem;
+    color: rgba(139,149,166,1);
+}
+.mouth{
+    padding-top: 0.14rem;
+}
+.left{
+    position: relative;
+    width: 36%;
+    height: 5.04rem;
+    /* background: red; */
+}
+.right{
+    width: 59%;
+    height: 5.04rem;
+    /* background:blue; */
+    right:0rem;
+    
+}
+.center_c{
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    width:0.14rem;
+    height:4rem;
+    border-radius:0.1rem;
+    border:0.01rem solid rgba(255,185,204,1);
+}
+.middle_e{
+    width:0.14rem;
+    height:1.34rem;
+    background:linear-gradient(90deg,rgba(252,59,114,0.78) 0%,rgba(252,59,114,1) 100%);
+    border-radius:0.1rem;
+}
+.gold1{
+    width:0.9rem;
+    height:0.95rem;
+    margin-top: 0.1rem;
+    
+}
+.right_f{
+    width:1.58rem;
+    height:.9rem;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.gold10{
+    height:0.78rem;
+    width:1.56rem;
+    margin-top: 0.1rem;
+}
+.day{
+    font-size: 0.28rem;
+    width:1.3rem;
+}
+.qdtips{
+    font-size:.2rem;
+}
+.day_y{
+    padding: 8px 8px 8px .26rem;
+    margin:0 8px 10% 8px;
+    box-sizing: border-box;
+    border-radius:50px 4px 4px 50px;
+    border: 1px solid rgba(230, 232, 236, 1);
+}
+
+.goldbar{
+    font-size:0.22rem;
+    font-family:'PingFangSC-Medium';
+    font-weight:500;
+    color:rgba(252,74,125,1);
+ }
+ .mark{
+    width: 0.28rem;
+    height: 0.48srem;
+    margin-left: 0.1rem;
+ }
+.invincible{
+    font-size:0.22rem;
+    color:#fff;
+}
+.number_r{
+    color:#FD4A7D
+}
+.quickly{
+    text-align: center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: rgba(255,255,255,1);
+    font-size: 0.28rem;
+    cursor: pointer;
+}
+.sign{
+    width:0.02rem;
+    height:0.6rem;
+    background:rgba(255,255,255,1);
+}
+.register{
+    position: absolute;
+    width: 1.83rem;
+    height: 0.92rem;
+    background-size: 100% 100%;
+    margin-left: 10px;
+    /* background:url('../static/images/bg_tipsRedx.png') 0 0 no-repeat; */
+    background-size:100% 100%;
+    left: 0;
+}
+.closetag{
+    width: 0.8rem;
+    height: 0.8rem;
+    position: relative;
+    top: 1.4rem;
+    left: 2.77rem;
+}
+.vline{
+    width: 0rem;
+    height: 0.8rem;
+    border-left: 0.03rem solid white;
+    position: relative;
+    left: 3.15rem;
+    top: 1.42rem;
+    opacity: 0.68;
+}
+.continuous{
+    z-index: 10;
+    display: inline-block;
+    position: relative;
+    top: -0.4rem;
+    left: -0.95rem;
+    color: white;
+    font-size: 0.45rem;
+}
+.gold{
+    font-size: 0.38rem;
+    color: white;
+}
