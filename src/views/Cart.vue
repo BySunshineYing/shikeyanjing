@@ -10,6 +10,7 @@
         <div class="MyCart">
           <div class="emptyCart" v-show="false">
             <img class="emptyImage" :src="cart" />
+            <h1>再次测试</h1>
             <div>购物车还是空的</div>
             <div>去挑些中意的商品吧，亲</div>
             <div class="linkBtn">
