@@ -11,6 +11,7 @@
           <div class="emptyCart" v-show="false">
             <img class="emptyImage" :src="cart" />
             <div>购物车还是空的</div>
+            <h1>测试一下</h1>
             <div>去挑些中意的商品吧，亲</div>
             <div class="linkBtn">
               <a class="goIndexBtn" @click="toHome">前往首页</a>
